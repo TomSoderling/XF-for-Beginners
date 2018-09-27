@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage x:Class="XFforBeginners.AbsoluteLayoutPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        
+        <AbsoluteLayout>
+            
+            <Label AbsoluteLayout.LayoutBounds=".5,1,.5,.1"
+                   AbsoluteLayout.LayoutFlags="All"
+                   LineBreakMode="WordWrap"
+                   Text="I'm bottom center on every device." />
+            
+            <BoxView AbsoluteLayout.LayoutBounds="1,.5, 25, 100"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"
+                     Color="Orange" />
+            
+            <BoxView AbsoluteLayout.LayoutBounds="0,.5,25,100"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"
+                     Color="Green" />
+            
+            <BoxView AbsoluteLayout.LayoutBounds=".5,0,100,25"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"
+                     Color="Blue" />
+            
+        </AbsoluteLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

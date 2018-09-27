@@ -6,35 +6,39 @@
     xmlns:local="clr-namespace:XFforBeginners"
     AutomationId="MyContentPage" >
 
-    <StackLayout AutomationId="MyStackLayout">
+    <ContentPage.Content>
+    
+        <StackLayout AutomationId="MyStackLayout">
 
-<!--        <Button AutomationId="IAmAButton"
-                Text="I am a button"
-                WidthRequest="200"
-                HorizontalOptions="Center"
-                VerticalOptions="CenterAndExpand" />-->
+            <!--<Button AutomationId="IAmAButton"
+                    Text="I am a button"
+                    WidthRequest="200"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand" />-->
 
-<!--        <Label AutomationId="WelcomeLabel"
-               Text="Welcome to Xamarin.Forms!"
-               HorizontalOptions="Center"
-               VerticalOptions="CenterAndExpand" />-->
+<!--            <Label AutomationId="WelcomeLabel"
+                   Text="Welcome to Xamarin.Forms!"
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand" />-->
 
-<!--        <Entry AutomationId="Entry"
-               Text="Enter text here"
-               WidthRequest="200"
-               HorizontalOptions="Center"
-               VerticalOptions="CenterAndExpand" />-->
+<!--            <Entry AutomationId="Entry"
+                   Text="Enter text here"
+                   WidthRequest="200"
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand" />-->
 
-<!--        <Switch AutomationId="ToggleSwitch" 
-                IsToggled="true"
-                HorizontalOptions="Center"
-                VerticalOptions="CenterAndExpand" />-->
+<!--            <Switch AutomationId="ToggleSwitch" 
+                    IsToggled="true"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand" />-->
 
-<!--        <ActivityIndicator AutomationId="ActivityIndicator"
-                           IsRunning="true"
-                           HorizontalOptions="Center"
-                           VerticalOptions="CenterAndExpand" />-->
-        
-    </StackLayout>
+<!--            <ActivityIndicator AutomationId="ActivityIndicator"
+                               IsRunning="true"
+                               HorizontalOptions="Center"
+                               VerticalOptions="CenterAndExpand" />-->
+            
+        </StackLayout>
+
+    </ContentPage.Content>
     
 </ContentPage>
