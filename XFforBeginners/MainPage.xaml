@@ -10,7 +10,7 @@
     
         <StackLayout AutomationId="MyStackLayout">
 
-            <!--<Button AutomationId="IAmAButton"
+<!--            <Button AutomationId="IAmAButton"
                     Text="I am a button"
                     WidthRequest="200"
                     HorizontalOptions="Center"

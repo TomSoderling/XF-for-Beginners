@@ -12,6 +12,7 @@ namespace XFforBeginners
         public MainPage()
         {
             InitializeComponent();
+
             /*
             // Create Views
             var button = new Button

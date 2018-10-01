@@ -10,4 +10,8 @@
   <ItemGroup>
     <Compile Remove="AbsoluteLayoutPage.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pages\" />
+    <Folder Include="Converters\" />
+  </ItemGroup>
 </Project>
