@@ -2,7 +2,12 @@ using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-[assembly: XamlCompilation(XamlCompilationOptions.Compile)]
+// Probably want to turn this on. Several benefits:
+// - It performs compile-time checking of XAML, notifying you of any errors before runtime
+// - It removes some of the load and instantiation time for XAML elements
+// - It helps to reduce the file size of the final assembly by no longer including.xaml files
+[assembly: XamlCompilation(XamlCompilationOptions.Compile)] 
+
 namespace XFforBeginners
 {
     public partial class App : Application

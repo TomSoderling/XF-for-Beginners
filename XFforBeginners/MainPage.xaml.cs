@@ -57,7 +57,7 @@ namespace XFforBeginners
                 VerticalOptions = LayoutOptions.CenterAndExpand
             };
 
-            // Create Layout, add Views
+            // Create Layout, add Views to it
             var myStack = new StackLayout
             {
                 AutomationId = "MyStackLayout",
