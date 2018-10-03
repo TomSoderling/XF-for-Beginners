@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage x:Class="XFforBeginners.BehaviorsPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XFforBeginners.Behaviors">
+
+    <ContentPage.Content>
+
+        <StackLayout VerticalOptions="Center">
+
+            <Label Text="Enter Some Text (but only 5 chars)"
+                   HorizontalOptions="Center" />
+            
+            <Entry WidthRequest="200" 
+                   HorizontalOptions="CenterAndExpand">
+                <Entry.Behaviors>
+                    <local:EntryLengthValidatorBehavior>
+                        <x:Arguments>
+                            <x:Int32>5</x:Int32>
+                        </x:Arguments>
+                    </local:EntryLengthValidatorBehavior>
+                </Entry.Behaviors>
+            </Entry>
+        </StackLayout>
+
+    </ContentPage.Content>
+
+</ContentPage>

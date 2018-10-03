@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    x:Class="XFforBeginners.MainPage" 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:XFforBeginners"
+    AutomationId="MyContentPage" >
+
+    <ContentPage.Content>
+    
+        <StackLayout AutomationId="MyStackLayout">
+
+            <Button AutomationId="IAmAButton"
+                    Text="I am a button - hello MDC!"
+                    WidthRequest="200"
+                    HorizontalOptions="Start"
+                    VerticalOptions="CenterAndExpand" />
+
+            <Label AutomationId="WelcomeLabel"
+                   Text="Welcome to Xamarin.Forms!"
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand" />
+
+            <Entry AutomationId="Entry"
+                   Text="Enter text here"
+                   WidthRequest="200"
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand" />
+
+            <Switch AutomationId="ToggleSwitch" 
+                    IsToggled="true"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand" />
+
+            <ActivityIndicator AutomationId="ActivityIndicator"
+                               IsRunning="true"
+                               HorizontalOptions="Center"
+                               VerticalOptions="CenterAndExpand" />
+            
+        </StackLayout>
+
+    </ContentPage.Content>
+    
+</ContentPage>
