@@ -8,4 +8,4 @@ Things in this repo:
 
 Talk Presented at:
 - MN Developers Conf. (MDC) 2018, Oct 3rd
-- Future: MNEM Meetup, Oct 18th
+- MNEM Meetup, Oct 18th, 2018
