@@ -10,18 +10,25 @@ namespace XFforBeginners
             InitializeComponent();
 
 
-            //welcomeLabel.Text = "this is the old way :[";
+            // OLD WAY
+            welcomeLabel.Text = "this is the old way :[";
 
 
-            // View Model to data bind to
+            #region NEW WAY
+
+            // ViewModel to data bind to
             var viewModel = new DataBindingPageViewModel
             {
-                LabelText = "Hello MDC! I'm bound to some data!",
+                LabelText = "Hello MNEM! I'm bound to some data!",
                 FrameColor = Color.LightGreen,
-                IsItFiestaWednesday = DateTime.Now
+                IsItFiestaThursday = DateTime.Now,
+                IsSwitchOn = true
             };
 
-            this.BindingContext = viewModel;
+            // Have to set the BindingContext of the Page
+            //this.BindingContext = viewModel;
+
+            #endregion NEW WAY
         }
     }
 
@@ -33,7 +40,10 @@ namespace XFforBeginners
 
         public Color FrameColor { get; set; }
 
+        public bool IsSwitchOn { get; set; }
+
+
         // Example of type mismatch
-        public DateTime IsItFiestaWednesday { get; set; }
+        public DateTime IsItFiestaThursday { get; set; }
     }
 }

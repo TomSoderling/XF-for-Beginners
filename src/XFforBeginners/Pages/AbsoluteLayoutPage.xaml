@@ -2,35 +2,46 @@
 <ContentPage x:Class="XFforBeginners.AbsoluteLayoutPage"
              xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            
+            <Style TargetType="BoxView">
+                <Setter Property="CornerRadius" Value="0" />
+                <Setter Property="Rotation" Value="0"/>
+            </Style>
+            
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
     <ContentPage.Content>
         
         <AbsoluteLayout>
-            <!-- Elements are positioned relative to the layout they're in -->
-            
+            <!-- Elements are positioned or sized relative to the layout they're in -->
 
             <!-- LayoutBounds rect: x, y, width, height-->
             <BoxView AbsoluteLayout.LayoutBounds="0, .5 , 50, 100"
                      AbsoluteLayout.LayoutFlags="PositionProportional"
                      Color="Green" />
             
-            <BoxView AbsoluteLayout.LayoutBounds="1, .5, 50, 100"
+<!--            <BoxView AbsoluteLayout.LayoutBounds="1, .5, 50, 100"
                      AbsoluteLayout.LayoutFlags="PositionProportional"
-                     Color="Orange" />
+                     Color="Orange" />-->
             
-            <BoxView AbsoluteLayout.LayoutBounds=".5, 0, 100, 50"
-                     AbsoluteLayout.LayoutFlags="PositionProportional"
-                     Color="Blue" />
+<!--            <BoxView AbsoluteLayout.LayoutBounds=".5, 0, 0.40, 0.10"
+                     AbsoluteLayout.LayoutFlags="PositionProportional, SizeProportional"
+                     Color="Blue" />-->
 
-            <BoxView AbsoluteLayout.LayoutBounds=".5, .5, 100, 50"
+<!--            <BoxView AbsoluteLayout.LayoutBounds=".5, .5, 100, 50"
                      AbsoluteLayout.LayoutFlags="PositionProportional"
-                     Color="Red" />
+                     Color="Red" />-->
 
-            <Label AbsoluteLayout.LayoutBounds=".5, 1, .50, .08"
+<!--            <Label AbsoluteLayout.LayoutBounds=".5, 1, .50, .08"
                    AbsoluteLayout.LayoutFlags="All"
                    BackgroundColor="Yellow"
                    LineBreakMode="WordWrap"
                    HorizontalTextAlignment="Center"
-                   Text="I'm bottom center on every device." />
+                   Text="I'm bottom center on every device." />-->
             
         </AbsoluteLayout>
         

@@ -9,17 +9,20 @@
         <Label HorizontalOptions="Center"
                VerticalOptions="Center"
                Text="{Binding UnderlinedLabelText}">
+            
             <Label.Effects>
-                <local:LabelUnderlineEffect>
-                    <local:LabelUnderlineEffect.LineColor>
-                        <!-- Specific values per platform -->
+                
+<!--                <local:LabelUnderlineEffect>-->
+<!--                    <local:LabelUnderlineEffect.LineColor>
                         <OnPlatform x:TypeArguments="Color">
                             <On Platform="iOS" Value="Red" />
                             <On Platform="Android" Value="Gray" />
                         </OnPlatform>
-                    </local:LabelUnderlineEffect.LineColor>
-                </local:LabelUnderlineEffect>
+                    </local:LabelUnderlineEffect.LineColor>-->
+<!--                </local:LabelUnderlineEffect>-->
+                
             </Label.Effects>
+            
         </Label>
 
     </ContentPage.Content>

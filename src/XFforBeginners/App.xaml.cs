@@ -17,6 +17,8 @@ namespace XFforBeginners
             InitializeComponent();
 
             MainPage = new MainPage();
+
+            //MainPage = new BehaviorsPage();
         }
 
         protected override void OnStart()

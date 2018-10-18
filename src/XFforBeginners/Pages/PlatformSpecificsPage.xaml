@@ -10,7 +10,7 @@
 
             <BoxView HeightRequest="100" 
                      Color="Crimson"
-                     ios:VisualElement.IsShadowEnabled="true"
+                     ios:VisualElement.IsShadowEnabled="false"
                      ios:VisualElement.ShadowColor="Black"
                      ios:VisualElement.ShadowOpacity="0.95"
                      ios:VisualElement.ShadowRadius="20">

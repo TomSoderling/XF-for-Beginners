@@ -18,7 +18,7 @@ namespace XFforBeginners.Converters
             var theDate = (DateTime)value;
 
             // Code to convert from one type to another
-            if (theDate.DayOfWeek == DayOfWeek.Wednesday)
+            if (theDate.DayOfWeek == DayOfWeek.Thursday)
             {
                 return Color.Red;
             }
