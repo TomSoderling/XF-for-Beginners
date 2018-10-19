@@ -7,7 +7,8 @@
     <ContentPage.Content>
 
         <StackLayout Margin="20">
-
+        
+            <!--- Set IsShadowEnabled to true to turn the drop shadow on -->
             <BoxView HeightRequest="100" 
                      Color="Crimson"
                      ios:VisualElement.IsShadowEnabled="false"

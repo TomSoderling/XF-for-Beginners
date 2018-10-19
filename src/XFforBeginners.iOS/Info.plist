@@ -25,7 +25,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>XFforBeginners</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.tomsoderling.XF-for-Beginners</string>
+	<string>com.tomsoderling.XFForBeginners</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>UILaunchStoryboardName</key>

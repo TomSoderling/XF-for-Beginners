@@ -19,18 +19,19 @@
                 <Label x:Name="welcomeLabel"
                        HeightRequest="50"
                        HorizontalTextAlignment="Center"
+                       
                        TextColor="{Binding IsItFiestaThursday, Converter={StaticResource dateTimeToColorConverter}}"
                        VerticalTextAlignment="Center" />
 
             </Frame>
-            
-            <Switch IsToggled="{Binding IsSwitchOn}"
+
+            <Switch Margin="0, 50, 0, 0"
                     HorizontalOptions="Center"
-                    Margin="0, 50, 0, 0" />
+                    IsToggled="{Binding IsSwitchOn}" />
 
         </StackLayout>
 
     </ContentPage.Content>
 </ContentPage>
 
-<!-- Text="{Binding LabelText}" -->
+<!--  Text="{Binding LabelText}"  -->

@@ -12,14 +12,14 @@
             
             <Label.Effects>
                 
-<!--                <local:LabelUnderlineEffect>-->
-<!--                    <local:LabelUnderlineEffect.LineColor>
-                        <OnPlatform x:TypeArguments="Color">
+<!--                <local:LabelUnderlineEffect>
+                    <local:LabelUnderlineEffect.LineColor>-->
+<!--                        <OnPlatform x:TypeArguments="Color">
                             <On Platform="iOS" Value="Red" />
                             <On Platform="Android" Value="Gray" />
-                        </OnPlatform>
-                    </local:LabelUnderlineEffect.LineColor>-->
-<!--                </local:LabelUnderlineEffect>-->
+                        </OnPlatform>-->
+<!--                    </local:LabelUnderlineEffect.LineColor>
+                </local:LabelUnderlineEffect>-->
                 
             </Label.Effects>
             
